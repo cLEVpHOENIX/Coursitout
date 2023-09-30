@@ -1,0 +1,69 @@
+---
+date created: 2023-09-16T18:59:13
+aliases:
+  - Gulf War
+  - First Gulf War
+  - Operation Desert Storm
+  - Guerre du Golfe
+tags:
+  - Flashcards
+  - War
+  - Middle_East
+  - Iraq
+  - Kuwait
+  - United_States
+  - Coalition
+  - History
+location:
+  - 29.3117
+  - 47.4818
+backlinks:
+  - "[[Saddam Hussein]]"
+  - "[[Kuwait]]"
+  - "[[Iraq]]"
+  - "[[United Nations]]"
+  - "[[George H. W. Bush]]"
+  - "[[Coalition forces]]"
+  - "[[Operation Desert Shield]]"
+  - "[[Operation Desert Storm]]"
+---
+> [!abstract]- Wikipedia
+> <iframe width="100%" height="1000" frameBorder="0" src="https://en.m.wikipedia.org/wiki/Gulf_War"></iframe>
+
+> [!info]+ Summary
+> The **Gulf War** (1990-1991), also known as the **First Gulf War** or **Operation Desert Storm**, was a conflict between **Iraq** and a **coalition of 35 nations** led by the **United States**. The war began when Iraqi leader **Saddam Hussein** invaded **Kuwait** in August 1990, prompting a response from the international community. The **United Nations** authorized the use of force to expel Iraqi forces from Kuwait, and the coalition launched a military campaign in January 1991. The war ended in February 1991 with a decisive victory for the coalition and the liberation of Kuwait.
+
+> [!Example]+ Chronology
+> **August 2, 1990** - _**Invasion of Kuwait**_ - Iraq invades Kuwait. 
+> **August 7, 1990** - _**Operation Desert Shield**_ - Coalition forces begin to deploy in Saudi Arabia. 
+> **November 29, 1990** - _**UN Resolution 678**_ - United Nations authorizes the use of force against Iraq. 
+> **January 17, 1991** - _**Operation Desert Storm**_ - Coalition launches air campaign against Iraq. 
+> **February 24, 1991** - _**Ground Offensive**_ - Coalition ground forces begin their offensive. 
+> **February 28, 1991** - _**Ceasefire**_ - Coalition declares a ceasefire, effectively ending the war.
+
+> [!question]- Flashcard
+START
+Basic
+Question: Conflict between Iraq and a coalition of 35 nations led by the United States, which began with Iraq's invasion of Kuwait in 1990 and ended with a decisive coalition victory in 1991.
+Answer: Gulf War
+ID: 1694883746799
+END
+
+> [!danger]+ Timeline
+> ```timeline-vis
+> divHeight=auto
+> tags=Middle_East
+> startDate=1990,01,01
+> endDate=1991,12,31
+> minDate=1989,01,01
+> maxDate=1992,01,01
+> ```
+
+<span 
+class='ob-timelines' 
+data-date='1990-08-02-00' 
+data-title='Gulf War' 
+data-type='range'
+data-end='1991-02-28-00'> 
+From August 2, 1990 to February 28, 1991
+</span>
