@@ -1,69 +1,83 @@
+Instructions: 
+Write the following note for Obsidian. 
+In the header: Flashcards tag is necessary. Aliases are other ways to spell the given words. Add backlinks corresponding to Wikipedia articles. The location must be the place of birth if it's a person. 
+Explain the topic in a short and simple way, then add a chronology of related events.
+In the Vis-Timeline: only put the most relevant tag from the YAML header. Only add one new entry to the timeline. If the years are BC, then the dates must be negatives.
+The flashcard must be short and written in french.
+Format your answer using Markdown and Latex. 
+
+Template: 
 ---
-date created: 2023-09-16T18:59:13
 aliases:
-  - Gulf War
-  - First Gulf War
-  - Operation Desert Storm
-  - Guerre du Golfe
+  - Julius Caesar
+  - Gaius Julius Caesar
+  - Caesar
 tags:
   - Flashcards
-  - War
-  - Middle_East
-  - Iraq
-  - Kuwait
-  - United_States
-  - Coalition
+  - Person
+  - Europe
+  - Rome
+  - Roman_Republic
+  - Roman_Empire
   - History
-location:
-  - 29.3117
-  - 47.4818
+  - Military
+  - Politician
 backlinks:
-  - "[[Saddam Hussein]]"
-  - "[[Kuwait]]"
-  - "[[Iraq]]"
-  - "[[United Nations]]"
-  - "[[George H. W. Bush]]"
-  - "[[Coalition forces]]"
-  - "[[Operation Desert Shield]]"
-  - "[[Operation Desert Storm]]"
+  - "[[Gallic Wars]]"
+  - "[[Crossing the Rubicon]]"
+  - "[[Battle of Pharsalus]]"
+  - "[[Roman Republic]]"
+  - "[[Roman Empire]]"
+  - "[[Ides of March]]"
+  - "[[Pompey the Great]]"
+  - "[[Cleopatra VII]]"
+  - "[[First Triumvirate]]"
+location:
+  - 41.9028
+  - 12.4964
 ---
-> [!abstract]- Wikipedia
-> <iframe width="100%" height="1000" frameBorder="0" src="https://en.m.wikipedia.org/wiki/Gulf_War"></iframe>
+> [!quote]- Wikipedia
+> <iframe width="100%" height="1000" frameBorder="0" src="https://en.m.wikipedia.org/wiki/Julius_Caesar"></iframe>
 
 > [!info]+ Summary
-> The **Gulf War** (1990-1991), also known as the **First Gulf War** or **Operation Desert Storm**, was a conflict between **Iraq** and a **coalition of 35 nations** led by the **United States**. The war began when Iraqi leader **Saddam Hussein** invaded **Kuwait** in August 1990, prompting a response from the international community. The **United Nations** authorized the use of force to expel Iraqi forces from Kuwait, and the coalition launched a military campaign in January 1991. The war ended in February 1991 with a decisive victory for the coalition and the liberation of Kuwait.
+> **Julius Caesar** (100 BC-44 BC) was a **Roman military and political leader** who played a critical role in the **transformation of the Roman Republic** into the **Roman Empire**. Born in Rome, Caesar was a skilled military commander and politician, who conquered **Gaul** and expanded Rome's territory. His crossing of the **Rubicon River** in **49 BC** marked the start of a **civil war** that ultimately led to the end of the Roman Republic. Caesar became the **dictator of Rome** in **44 BC**, but his rule was short-lived as he was **assassinated** by a group of senators on the **Ides of March** (March 15) in the same year.
 
 > [!Example]+ Chronology
-> **August 2, 1990** - _**Invasion of Kuwait**_ - Iraq invades Kuwait. 
-> **August 7, 1990** - _**Operation Desert Shield**_ - Coalition forces begin to deploy in Saudi Arabia. 
-> **November 29, 1990** - _**UN Resolution 678**_ - United Nations authorizes the use of force against Iraq. 
-> **January 17, 1991** - _**Operation Desert Storm**_ - Coalition launches air campaign against Iraq. 
-> **February 24, 1991** - _**Ground Offensive**_ - Coalition ground forces begin their offensive. 
-> **February 28, 1991** - _**Ceasefire**_ - Coalition declares a ceasefire, effectively ending the war.
+> **100 BC** - _**Birth**_ - Born in Rome. 
+> **58 BC → 50 BC** - _**Gallic Wars**_ - Conquers Gaul and expands Rome's territory. 
+> **49 BC** - _**Crossing the Rubicon**_ - Starts a civil war in Rome. 
+> **48 BC** - _**Battle of Pharsalus**_ - Defeats Pompey the Great. 
+> **44 BC** - _**Dictatorship**_ - Becomes dictator of Rome. 
+> **44 BC** - _**Assassination**_ - Killed on the Ides of March.
+
+> [!hint]+ Anecdote  
+> **The Veni, Vidi, Vici Moment**  
+> In 47 BC, Julius Caesar faced the forces of Pharnaces II, the king of Pontus, in the **Battle of Zela**. The battle was swift and decisive, with Caesar's forces emerging victorious. Following the victory, Caesar famously sent a message to the Roman Senate, stating, "Veni, vidi, vici" – which translates to "I came, I saw, I conquered." This phrase has become synonymous with quick and decisive victories and is a testament to Caesar's military prowess.
 
 > [!question]- Flashcard
 START
 Basic
-Question: Conflict between Iraq and a coalition of 35 nations led by the United States, which began with Iraq's invasion of Kuwait in 1990 and ended with a decisive coalition victory in 1991.
-Answer: Gulf War
-ID: 1694883746799
+Question: Leader militaire et politique romain qui a joué un rôle crucial dans la transformation de la République romaine en Empire romain et qui a été assassiné aux Ides de Mars en 44 av. J.-C.
+Answer: Jules César
 END
 
-> [!danger]+ Timeline
+> [!danger]- Timeline
 > ```timeline-vis
 > divHeight=auto
-> tags=Middle_East
-> startDate=1990,01,01
-> endDate=1991,12,31
-> minDate=1989,01,01
-> maxDate=1992,01,01
+> tags=Rome
+> startDate=-150,01,01
+> endDate=50,01,01
+> minDate=-200,01,01
+> maxDate=100,01,01
 > ```
 
 <span 
 class='ob-timelines' 
-data-date='1990-08-02-00' 
-data-title='Gulf War' 
+data-date='-100-07-13-00' 
+data-title='Julius Caesar' 
 data-type='range'
-data-end='1991-02-28-00'> 
-From August 2, 1990 to February 28, 1991
+data-end='-44-03-15-00'> 
+From 100 BC to 44 BC
 </span>
+
+Make a note for: 
