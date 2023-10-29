@@ -1,9 +1,8 @@
-Instructions: 
 Write the following note for Obsidian. 
 In the header: Flashcards tag is necessary. Aliases are other ways to spell the given words. Add backlinks corresponding to Wikipedia articles. The location must be the place of birth if it's a person. 
 Explain the topic in a short and simple way, then add a chronology of related events.
 In the Vis-Timeline: only put the most relevant tag from the YAML header. Only add one new entry to the timeline. If the years are BC, then the dates must be negatives.
-The flashcard must be short and written in french.
+flashcard must be short and written in french. IF the topic is associated to a historic event, make another flashcard asking the year of the event. 
 Format your answer using Markdown and Latex. 
 
 Template: 
@@ -59,6 +58,13 @@ START
 Basic
 Question: Leader militaire et politique romain qui a joué un rôle crucial dans la transformation de la République romaine en Empire romain et qui a été assassiné aux Ides de Mars en 44 av. J.-C.
 Answer: Jules César
+END
+
+> [!question]- Flashcard
+START
+Basic
+Question: En quelle année Jules César a-t-il été assassiné ?
+Answer: 44 av. J.-C.
 END
 
 > [!danger]- Timeline
