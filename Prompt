@@ -1,9 +1,8 @@
 Instructions: 
 Write the following note for Obsidian. 
-In the header: Flashcards tag is necessary. Aliases are other ways to spell the given words (one of the alias must be the french translation). Add backlinks corresponding to Wikipedia articles. The location must be the place of birth if it's a person. 
+In the header: Flashcards tag is necessary. Aliases are other ways to spell the given words. Add backlinks corresponding to Wikipedia articles. The location must be the place of birth if it's a person. 
 Explain the topic in a short and simple way, then add a chronology of related events.
-In the Vis-Timeline: only put the most relevant tag from the YAML header. Only add one new entry to the timeline. If the years are BC, then the dates must be negatives.
-The flashcard must be short.
+flashcard must be short and written in french. Only add a date to the flashcard if there is a strong date associated to the topic. Flashcard definition mustn't exceed one sentence.
 Format your answer using Markdown and Latex. 
 
 Template: 
@@ -12,7 +11,6 @@ aliases:
   - Julius Caesar
   - Gaius Julius Caesar
   - Caesar
-  - Jules César
 tags:
   - Flashcards
   - Person
@@ -37,48 +35,31 @@ location:
   - 41.9028
   - 12.4964
 ---
-> [!quote]- Wikipedia
+> [!wikipedia]- Wikipedia
 > <iframe width="100%" height="1000" frameBorder="0" src="https://en.m.wikipedia.org/wiki/Julius_Caesar"></iframe>
 
-> [!info]+ Summary
+> [!summary]+ Summary
 > **Julius Caesar** (100 BC-44 BC) was a **Roman military and political leader** who played a critical role in the **transformation of the Roman Republic** into the **Roman Empire**. Born in Rome, Caesar was a skilled military commander and politician, who conquered **Gaul** and expanded Rome's territory. His crossing of the **Rubicon River** in **49 BC** marked the start of a **civil war** that ultimately led to the end of the Roman Republic. Caesar became the **dictator of Rome** in **44 BC**, but his rule was short-lived as he was **assassinated** by a group of senators on the **Ides of March** (March 15) in the same year.
 
-> [!Example]+ Chronology
-> **100 BC** - _**Birth**_ - Born in Rome. 
-> **58 BC → 50 BC** - _**Gallic Wars**_ - Conquers Gaul and expands Rome's territory. 
-> **49 BC** - _**Crossing the Rubicon**_ - Starts a civil war in Rome. 
-> **48 BC** - _**Battle of Pharsalus**_ - Defeats Pompey the Great. 
-> **44 BC** - _**Dictatorship**_ - Becomes dictator of Rome. 
-> **44 BC** - _**Assassination**_ - Killed on the Ides of March.
+> [!chronology]+ Chronology
+> - **100 BC** - _**Birth**_ - Born in Rome. 
+> - **58 BC → 50 BC** - _**Gallic Wars**_ - Conquers Gaul and expands Rome's territory. 
+> - **49 BC** - _**Crossing the Rubicon**_ - Starts a civil war in Rome. 
+> - **48 BC** - _**Battle of Pharsalus**_ - Defeats Pompey the Great. 
+> - **44 BC** - _**Dictatorship**_ - Becomes dictator of Rome. 
+> - **44 BC** - _**Assassination**_ - Killed on the Ides of March.
 
-> [!hint]+ Anecdote  
+> [!trivia]+ Trivia
 > **The Veni, Vidi, Vici Moment**  
 > In 47 BC, Julius Caesar faced the forces of Pharnaces II, the king of Pontus, in the **Battle of Zela**. The battle was swift and decisive, with Caesar's forces emerging victorious. Following the victory, Caesar famously sent a message to the Roman Senate, stating, "Veni, vidi, vici" – which translates to "I came, I saw, I conquered." This phrase has become synonymous with quick and decisive victories and is a testament to Caesar's military prowess.
 
-> [!question]- Flashcard
+> [!flashcard]- Flashcard
 START
-Basic
-Question: Roman military and political leader who played a critical role in the transformation of the Roman Republic into the Roman Empire and was assassinated on the Ides of March in 44 BC.
-Answer: Julius Caesar
+Obsidian
+Name: Jules César
+Definition: Leader militaire et politique romain qui a joué un rôle crucial dans la transformation de la République romaine en Empire romain et qui a été assassiné aux Ides de Mars.
+Date: 44 av. J.-C.
+Date event: Année de l'assassinat
 END
-
-> [!danger]- Timeline
-> ```timeline-vis
-> divHeight=auto
-> tags=Rome
-> startDate=-150,01,01
-> endDate=50,01,01
-> minDate=-200,01,01
-> maxDate=100,01,01
-> ```
-
-<span 
-class='ob-timelines' 
-data-date='-100-07-13-00' 
-data-title='Julius Caesar' 
-data-type='range'
-data-end='-44-03-15-00'> 
-From 100 BC to 44 BC
-</span>
 
 Make a note for: 
