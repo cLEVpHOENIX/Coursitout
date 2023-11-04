@@ -1,11 +1,3 @@
-Instructions: 
-Write the following note for Obsidian. 
-In the header: Flashcards tag is necessary. Aliases are other ways to spell the given words. Add backlinks corresponding to Wikipedia articles. The location must be the place of birth if it's a person. 
-Explain the topic in a short and simple way, then add a chronology of related events.
-flashcard must be short and written in french. IF the topic is associated to a historic event, make another flashcard asking the year of the event. 
-Format your answer using Markdown and Latex. 
-
-Template: 
 ---
 aliases:
   - Julius Caesar
@@ -66,5 +58,3 @@ Basic
 Question: En quelle année Jules César a-t-il été assassiné ?
 Answer: 44 av. J.-C.
 END
-
-Make a note for: 
