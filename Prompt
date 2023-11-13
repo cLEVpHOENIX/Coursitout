@@ -57,9 +57,10 @@ location:
 START
 Obsidian
 Name: Jules César
-Definition: Leader militaire et politique romain qui a joué un rôle crucial dans la transformation de la République romaine en Empire romain et qui a été assassiné aux Ides de Mars.
+Description: Leader militaire et politique romain qui a joué un rôle crucial dans la transformation de la République romaine en Empire romain et qui a été assassiné aux Ides de Mars.
 Date: 100-44 av. J.-C.
 Event: Années de naissance et de décès
+Trivia: Célèbre pour sa phrase "Veni, vidi, vici" après une victoire rapide et décisive à la Bataille de Zela.
 END
 
 Make a note for: 
