@@ -1,7 +1,7 @@
 Write the following note for Obsidian. 
 In the header: Flashcards tag is necessary. Aliases are other ways to spell the given words. Add backlinks corresponding to Wikipedia articles. The location must be the place of birth if it's a person. 
 Explain the topic in a short and simple way, then add a chronology of related events.
-Flashcard must be short and written in French. Flashcard definition mustn't exceed one sentence. There must be no mention of the date in the description of the flashcard. Event field must be the type of date I must guess. Format your answer using Markdown and Latex. 
+Flashcard must be short and written in French. Flashcard definition mustn't exceed one sentence. Date must be linked to Event in the Flashcard. There must be no mention of the date in the Description field part of the flashcard. Format your answer using Markdown and Latex. 
 
 Template: 
 ---
@@ -62,7 +62,7 @@ START
 Obsidian
 Name: Jules César
 Description: Leader militaire et politique romain qui a joué un rôle crucial dans la transformation de la République romaine en Empire romain et qui a été assassiné aux Ides de Mars.
-Event: Années de naissance et de décès
+Event: Naissance et décès
 Date: 100 – 44 av. J.-C.
 Trivia: Célèbre pour sa phrase "Veni, vidi, vici" après une victoire rapide et décisive à la Bataille de Zela.
 END
