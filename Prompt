@@ -1,7 +1,7 @@
 Write the following note for Obsidian. 
 In the header: Flashcards tag is necessary. Aliases are other ways to spell the given words. Add backlinks corresponding to Wikipedia articles. The location must be the place of birth if it's a person. 
 Explain the topic in a short and simple way, then add a chronology of related events.
-Flashcard must be short and written in French. Flashcard definition mustn't exceed one sentence. Date must be linked to Event in the Flashcard. There must be no mention of the date in the Description field part of the flashcard. Format your answer using Markdown and Latex. 
+Flashcard must be short and written in French. Flashcard definition mustn't exceed one sentence. Information in each field of the flashcard should be unique and not be repeated between fields. Date must be linked to the Event in the Flashcard. If no date or event are relevant then add add something else but keep the name of the fields. If the note is about a person, the dates must be about his birth and death. Format your answer using Markdown and Latex. 
 
 Template: 
 ---
@@ -33,7 +33,7 @@ location:
   - 41.9028
   - 12.4964
 ---
-> [!wikipedia]- Wikipedia
+> [!wikipedia]+ Wikipedia
 > <iframe width="100%" height="1000" frameBorder="0" src="https://en.m.wikipedia.org/wiki/Julius_Caesar"></iframe>
 
 > [!summary]+ Summary
@@ -52,19 +52,20 @@ location:
 
 > [!trivia]+ Trivia
 > **The Veni, Vidi, Vici Moment**  
-> In 47 BC, Julius Caesar faced the forces of Pharnaces II, the king of Pontus, in the **Battle of Zela**. The battle was swift and decisive, with Caesar's forces emerging victorious. Following the victory, Caesar famously sent a message to the Roman Senate, stating, "Veni, vidi, vici" – which translates to "I came, I saw, I conquered." This phrase has become synonymous with quick and decisive victories and is a testament to Caesar's military prowess.
+> In 47 BC, Julius Caesar faced the forces of Pharnaces II, the king of Pontus, in the **Battle of Zela**. The battle was swift and decisive, with Caesar's forces emerging victorious. Following the victory, Caesar famously sent a message to the Roman Senate, stating, « *Veni, vidi, vici* » – which translates to « I came, I saw, I conquered. » This phrase has become synonymous with quick and decisive victories and is a testament to Caesar's military prowess.
 
 > [!quote]+ Quote  
-> "I came, I saw, I conquered." Julius Caesar
+> « I came, I saw, I conquered. » Julius Caesar
 
 > [!flashcard]- Flashcard
 START
 Obsidian
 Name: Jules César
 Description: Leader militaire et politique romain qui a joué un rôle crucial dans la transformation de la République romaine en Empire romain et qui a été assassiné aux Ides de Mars.
-Event: Naissance et décès
+Event: Date de naissance et de décès
 Date: 100 – 44 av. J.-C.
-Trivia: Célèbre pour sa phrase "Veni, vidi, vici" après une victoire rapide et décisive à la Bataille de Zela.
+Trivia: Célèbre pour sa phrase « *Veni, vidi, vici* » après une victoire rapide et décisive à la Bataille de Zela.
+Version: 23.12
 END
 
 Make a note for: 
